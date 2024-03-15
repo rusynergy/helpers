@@ -1,5 +1,6 @@
 #!/bin/bash
-# Block Biterika Group IP ranges
+# Anti-spam
+# Block Biterika Group IP ranges +Virty.io +Admin
 iptables -I INPUT -s 109.248.12.0/23 -j DROP
 iptables -I INPUT -s 109.248.128.0/23 -j DROP
 iptables -I INPUT -s 109.248.128.0/24 -j DROP
@@ -27,6 +28,7 @@ iptables -I INPUT -s 109.248.54.0/23 -j DROP
 iptables -I INPUT -s 109.248.54.0/24 -j DROP
 iptables -I INPUT -s 109.248.55.0/24 -j DROP
 iptables -I INPUT -s 176.53.186.0/24 -j DROP
+iptables -I INPUT -s 185.181.245.0/24 -j DROP
 iptables -I INPUT -s 188.130.128.0/23 -j DROP
 iptables -I INPUT -s 188.130.128.0/24 -j DROP
 iptables -I INPUT -s 188.130.129.0/24 -j DROP
@@ -93,4 +95,52 @@ iptables -I INPUT -s 45.140.52.0/23 -j DROP
 iptables -I INPUT -s 45.140.54.0/23 -j DROP
 iptables -I INPUT -s 45.142.252.0/23 -j DROP
 iptables -I INPUT -s 109.248.12.0/24 -j DROP
+iptables -I INPUT -s 46.8.10.0/24 -j DROP
+iptables -I INPUT -s 46.8.11.0/24 -j DROP
+iptables -I INPUT -s 46.8.12.0/23 -j DROP
+iptables -I INPUT -s 46.8.12.0/23 -j DROP
+iptables -I INPUT -s 46.8.14.0/24 -j DROP
+iptables -I INPUT -s 46.8.15.0/24 -j DROP
+iptables -I INPUT -s 46.8.16.0/24 -j DROP
+iptables -I INPUT -s 46.8.17.0/24 -j DROP
+iptables -I INPUT -s 46.8.22.0/24 -j DROP
+iptables -I INPUT -s 46.8.23.0/24 -j DROP
+iptables -I INPUT -s 46.8.26.0/24 -j DROP
+iptables -I INPUT -s 46.8.56.0/24 -j DROP
+iptables -I INPUT -s 46.8.57.0/24 -j DROP
+iptables -I INPUT -s 46.8.106.0/24 -j DROP
+iptables -I INPUT -s 46.8.107.0/24 -j DROP
+iptables -I INPUT -s 46.8.110.0/24 -j DROP
+iptables -I INPUT -s 46.8.111.0/24 -j DROP
+iptables -I INPUT -s 46.8.130.0/24 -j DROP
+iptables -I INPUT -s 46.8.131.0/24 -j DROP
+iptables -I INPUT -s 46.8.132.0/24 -j DROP
+iptables -I INPUT -s 46.8.133.0/24 -j DROP
+iptables -I INPUT -s 46.8.134.0/24 -j DROP
+iptables -I INPUT -s 46.8.135.0/24 -j DROP
+iptables -I INPUT -s 46.8.136.0/24 -j DROP
+iptables -I INPUT -s 46.8.137.0/24 -j DROP
+iptables -I INPUT -s 46.8.138.0/24 -j DROP
+iptables -I INPUT -s 46.8.139.0/24 -j DROP
+iptables -I INPUT -s 46.8.154.0/24 -j DROP
+iptables -I INPUT -s 46.8.155.0/24 -j DROP
+iptables -I INPUT -s 46.8.156.0/24 -j DROP
+iptables -I INPUT -s 46.8.157.0/24 -j DROP
+iptables -I INPUT -s 46.8.188.0/24 -j DROP
+iptables -I INPUT -s 46.8.189.0/24 -j DROP
+iptables -I INPUT -s 46.8.191.0/24 -j DROP
+iptables -I INPUT -s 46.8.192.0/24 -j DROP
+iptables -I INPUT -s 46.8.193.0/24 -j DROP
+iptables -I INPUT -s 46.8.212.0/24 -j DROP
+iptables -I INPUT -s 46.8.213.0/24 -j DROP
+iptables -I INPUT -s 46.8.214.0/24 -j DROP
+iptables -I INPUT -s 46.8.215.0/24 -j DROP
+iptables -I INPUT -s 46.8.222.0/24 -j DROP
+iptables -I INPUT -s 46.8.223.0/24 -j DROP
+iptables -I INPUT -s 45.84.177.0/24 -j DROP
+iptables -I INPUT -s 95.182.124.0/24 -j DROP
+iptables -I INPUT -s 95.182.125.0/24 -j DROP
+iptables -I INPUT -s 95.182.126.0/24 -j DROP
+iptables -I INPUT -s 95.182.127.0/24 -j DROP
+
 iptables -save
