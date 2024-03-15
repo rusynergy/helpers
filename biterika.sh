@@ -1,97 +1,96 @@
 #!/bin/bash
 # Block Biterika Group IP ranges
-iptables -N biterika
-iptables -A biterika -I INPUT -s 109.248.12.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.128.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.128.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.129.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.13.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.138.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.138.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.139.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.14.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.14.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.142.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.142.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.143.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.15.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.166.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.166.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.167.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.204.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.204.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.205.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.48.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.48.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.49.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.54.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.54.0/24 -j DROP
-iptables -A biterika -I INPUT -s 109.248.55.0/24 -j DROP
-iptables -A biterika -I INPUT -s 176.53.186.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.128.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.128.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.129.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.136.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.136.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.137.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.142.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.142.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.143.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.184.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.184.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.185.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.186.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.186.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.187.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.188.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.188.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.189.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.210.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.210.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.211.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.218.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.218.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.219.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.220.0/23 -j DROP
-iptables -A biterika -I INPUT -s 188.130.220.0/24 -j DROP
-iptables -A biterika -I INPUT -s 188.130.221.0/24 -j DROP
-iptables -A biterika -I INPUT -s 192.144.31.0/24 -j DROP
-iptables -A biterika -I INPUT -s 193.53.168.0/24 -j DROP
-iptables -A biterika -I INPUT -s 193.58.168.0/23 -j DROP
-iptables -A biterika -I INPUT -s 193.58.168.0/24 -j DROP
-iptables -A biterika -I INPUT -s 193.58.169.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.156.123.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.156.92.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.156.96.0/23 -j DROP
-iptables -A biterika -I INPUT -s 194.156.96.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.156.97.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.32.229.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.32.237.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.34.248.0/24 -j DROP
-iptables -A biterika -I INPUT -s 194.35.113.0/24 -j DROP
-iptables -A biterika -I INPUT -s 212.115.49.0/24 -j DROP
-iptables -A biterika -I INPUT -s 213.226.101.0/24 -j DROP
-iptables -A biterika -I INPUT -s 2.59.50.0/24 -j DROP
-iptables -A biterika -I INPUT -s 31.40.203.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.11.20.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.11.20.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.11.21.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.134.180.0/22 -j DROP
-iptables -A biterika -I INPUT -s 45.134.180.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.134.182.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.134.252.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.134.252.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.134.253.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.135.32.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.135.32.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.135.33.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.139.125.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.139.176.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.139.176.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.139.177.0/24 -j DROP
-iptables -A biterika -I INPUT -s 45.140.52.0/22 -j DROP
-iptables -A biterika -I INPUT -s 45.140.52.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.140.54.0/23 -j DROP
-iptables -A biterika -I INPUT -s 45.142.252.0/23 -j DROP
-iptables -A biterika -I INPUT -s 109.248.12.0/24 -j DROP
+iptables -I INPUT -s 109.248.12.0/23 -j DROP
+iptables -I INPUT -s 109.248.128.0/23 -j DROP
+iptables -I INPUT -s 109.248.128.0/24 -j DROP
+iptables -I INPUT -s 109.248.129.0/24 -j DROP
+iptables -I INPUT -s 109.248.13.0/24 -j DROP
+iptables -I INPUT -s 109.248.138.0/23 -j DROP
+iptables -I INPUT -s 109.248.138.0/24 -j DROP
+iptables -I INPUT -s 109.248.139.0/24 -j DROP
+iptables -I INPUT -s 109.248.14.0/23 -j DROP
+iptables -I INPUT -s 109.248.14.0/24 -j DROP
+iptables -I INPUT -s 109.248.142.0/23 -j DROP
+iptables -I INPUT -s 109.248.142.0/24 -j DROP
+iptables -I INPUT -s 109.248.143.0/24 -j DROP
+iptables -I INPUT -s 109.248.15.0/24 -j DROP
+iptables -I INPUT -s 109.248.166.0/23 -j DROP
+iptables -I INPUT -s 109.248.166.0/24 -j DROP
+iptables -I INPUT -s 109.248.167.0/24 -j DROP
+iptables -I INPUT -s 109.248.204.0/23 -j DROP
+iptables -I INPUT -s 109.248.204.0/24 -j DROP
+iptables -I INPUT -s 109.248.205.0/24 -j DROP
+iptables -I INPUT -s 109.248.48.0/23 -j DROP
+iptables -I INPUT -s 109.248.48.0/24 -j DROP
+iptables -I INPUT -s 109.248.49.0/24 -j DROP
+iptables -I INPUT -s 109.248.54.0/23 -j DROP
+iptables -I INPUT -s 109.248.54.0/24 -j DROP
+iptables -I INPUT -s 109.248.55.0/24 -j DROP
+iptables -I INPUT -s 176.53.186.0/24 -j DROP
+iptables -I INPUT -s 188.130.128.0/23 -j DROP
+iptables -I INPUT -s 188.130.128.0/24 -j DROP
+iptables -I INPUT -s 188.130.129.0/24 -j DROP
+iptables -I INPUT -s 188.130.136.0/23 -j DROP
+iptables -I INPUT -s 188.130.136.0/24 -j DROP
+iptables -I INPUT -s 188.130.137.0/24 -j DROP
+iptables -I INPUT -s 188.130.142.0/23 -j DROP
+iptables -I INPUT -s 188.130.142.0/24 -j DROP
+iptables -I INPUT -s 188.130.143.0/24 -j DROP
+iptables -I INPUT -s 188.130.184.0/23 -j DROP
+iptables -I INPUT -s 188.130.184.0/24 -j DROP
+iptables -I INPUT -s 188.130.185.0/24 -j DROP
+iptables -I INPUT -s 188.130.186.0/23 -j DROP
+iptables -I INPUT -s 188.130.186.0/24 -j DROP
+iptables -I INPUT -s 188.130.187.0/24 -j DROP
+iptables -I INPUT -s 188.130.188.0/23 -j DROP
+iptables -I INPUT -s 188.130.188.0/24 -j DROP
+iptables -I INPUT -s 188.130.189.0/24 -j DROP
+iptables -I INPUT -s 188.130.210.0/23 -j DROP
+iptables -I INPUT -s 188.130.210.0/24 -j DROP
+iptables -I INPUT -s 188.130.211.0/24 -j DROP
+iptables -I INPUT -s 188.130.218.0/23 -j DROP
+iptables -I INPUT -s 188.130.218.0/24 -j DROP
+iptables -I INPUT -s 188.130.219.0/24 -j DROP
+iptables -I INPUT -s 188.130.220.0/23 -j DROP
+iptables -I INPUT -s 188.130.220.0/24 -j DROP
+iptables -I INPUT -s 188.130.221.0/24 -j DROP
+iptables -I INPUT -s 192.144.31.0/24 -j DROP
+iptables -I INPUT -s 193.53.168.0/24 -j DROP
+iptables -I INPUT -s 193.58.168.0/23 -j DROP
+iptables -I INPUT -s 193.58.168.0/24 -j DROP
+iptables -I INPUT -s 193.58.169.0/24 -j DROP
+iptables -I INPUT -s 194.156.123.0/24 -j DROP
+iptables -I INPUT -s 194.156.92.0/24 -j DROP
+iptables -I INPUT -s 194.156.96.0/23 -j DROP
+iptables -I INPUT -s 194.156.96.0/24 -j DROP
+iptables -I INPUT -s 194.156.97.0/24 -j DROP
+iptables -I INPUT -s 194.32.229.0/24 -j DROP
+iptables -I INPUT -s 194.32.237.0/24 -j DROP
+iptables -I INPUT -s 194.34.248.0/24 -j DROP
+iptables -I INPUT -s 194.35.113.0/24 -j DROP
+iptables -I INPUT -s 212.115.49.0/24 -j DROP
+iptables -I INPUT -s 213.226.101.0/24 -j DROP
+iptables -I INPUT -s 2.59.50.0/24 -j DROP
+iptables -I INPUT -s 31.40.203.0/24 -j DROP
+iptables -I INPUT -s 45.11.20.0/23 -j DROP
+iptables -I INPUT -s 45.11.20.0/24 -j DROP
+iptables -I INPUT -s 45.11.21.0/24 -j DROP
+iptables -I INPUT -s 45.134.180.0/22 -j DROP
+iptables -I INPUT -s 45.134.180.0/23 -j DROP
+iptables -I INPUT -s 45.134.182.0/23 -j DROP
+iptables -I INPUT -s 45.134.252.0/23 -j DROP
+iptables -I INPUT -s 45.134.252.0/24 -j DROP
+iptables -I INPUT -s 45.134.253.0/24 -j DROP
+iptables -I INPUT -s 45.135.32.0/23 -j DROP
+iptables -I INPUT -s 45.135.32.0/24 -j DROP
+iptables -I INPUT -s 45.135.33.0/24 -j DROP
+iptables -I INPUT -s 45.139.125.0/24 -j DROP
+iptables -I INPUT -s 45.139.176.0/23 -j DROP
+iptables -I INPUT -s 45.139.176.0/24 -j DROP
+iptables -I INPUT -s 45.139.177.0/24 -j DROP
+iptables -I INPUT -s 45.140.52.0/22 -j DROP
+iptables -I INPUT -s 45.140.52.0/23 -j DROP
+iptables -I INPUT -s 45.140.54.0/23 -j DROP
+iptables -I INPUT -s 45.142.252.0/23 -j DROP
+iptables -I INPUT -s 109.248.12.0/24 -j DROP
 iptables -save
